@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Maven Pro';
+    font-style: normal, light;
+    font-weight: 300, 400, 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mavenpro/v22/7Auup_AqnyWWAxW2Wk3swUz56MS91Eww8Rf21nejog.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nanumgothic/v17/PN_3Rfi-oW3hYwmKDpxS7F_z-7rJxHVIsPV5MbNO2rV2_va-Nv6p.17.woff2) format('woff2');
+    unicode-range: U+ccef-cd07, U+cd0a-cd0b, U+cd0d-cd1a, U+cd1c, U+cd1e-cd2b, U+cd2d-cd5b, U+cd5d-cd77, U+cd79-cd91;
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300, 400, 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+header h1 {
+    font-weight: bold;
+    margin-left:  30px;
+    margin-top: 30px;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Indie Flower', impact, sans-serif;
+    font-weight: bolder;
+    font-size: 25px
+}
+
+/*Colors section */
+.container {
+    border: 1px solid gray;
+    margin: 30px;  
+}
+
+.container-color{
+display: flex;
+}
+
+.blue {
+    border: 1px solid blue;
+    background-color: blue;
+    height: 80px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.green {
+    border: 1px solid forestgreen;
+    background-color: forestgreen;
+    height: 80px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.red {
+    border: 1px solid red;
+    background-color: red;
+    height: 80px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+h4{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*Fonts Section*/
+
+.font-container{
+    border: 1px solid gray;
+    margin: 30px;
+    display: flex;
+}
+
+.mav{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: 15px;
+    font-family: "Maven Pro";
+    font-size: 20px;
+    font-weight: lighter;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li .mav{
+    font-family: 'Maven Pro', impact, sans-serif;
+    display: inline-block;
+}
+
+.nanum{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 15px;
+    font-family: 'Nanum Gothic';
+    font-size: 20px;
+    font-weight: lighter;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li .nanum{
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', impact, sans-serif;
+    display: inline-block;  
+}
+
+.poppins{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 15px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: lighter;
+    list-style-type: none;
+    display: inline-block;
+}
+
+li .poppins{
+    margin-top: 20px;
+    font-family: 'Nanum Gothic', impact, sans-serif;
+    display: inline-block;  
+}
+
+
+/* Font Style*/
+
+.style-container{
+    border: 1px solid gray;
+    margin: 30px;
+}
+
+.layout{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-family: poppins;
+    
+}
+
+.text-info{
+    list-style-position: inside;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+h2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+p{
+    margin-top: 20px;
+}
+
+.text-info-p{
+    font-family: 'Maven Pro';
+    font-weight: 300;
+    list-style-position: inside;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
